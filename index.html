@@ -3,47 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div class="main-page">
         <div class="header">
-            <div class="logo">Header Logo</div>
+            <H3 class="header-logo">R3.</H3>
             <ul class="list">
-                <li class="list-item">Home</li>
-                <li class="list-item">About</li>
-                <li class="list-item">Contact</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
             </ul>
         </div>
         <div class="header-content">
-            <h1>This website is Awesome</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam perspiciatis voluptatibus recusandae. Et reprehenderit dignissimos tempore! Modi laboriosam, eaque repellendus praesentium, similique rem delectus quisquam id perferendis architecto sunt. Necessitatibus.</p>
-            <button class="sign-up">Sign up</button>
-            <img src="" alt="This is a placeholder image" class="placeholder-image">
+            <div class="header-text">
+                <h1>Welcome!</h1>
+                <p>Crafting modern, responsive websites using HTML5, CSS, JavaScript, and Python. Explore my projects and see how I bring ideas to life through clean code and creative design.</p>
+                <button class="sign-up" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley', '_blank');">Sign Up</button>
+            </div>
+            <div class="header-image">
+                <img src="/Landing-Page/Images/terminal.png" alt="This is a placeholder image" class="placeholder-image">
+            </div>
         </div>
         <div class="main-content">
             <div class="content1">
-                <h2 class="info">Some Random Information</h2>
-                <img src="" alt="Image 1">
-                <p>This is some text under an illustration or image.</p>
-                <img src="" alt="Image 2">
-                <p>This is some text under an illustration or image.</p>
-                <img src="" alt="Image 3">
-                <p>This is some text under an illustration or image.</p>
-                <img src="" alt="Image 4">
-                <p>This is some text under an illustration or image.</p>
+                <h2 class="info">Technologies</h2>
+                <div class="list-content">
+                    <div class="content1">
+                        <img src="/Landing-Page/Images/html5-brands-solid.svg" alt="Image 1" class="sub-image">
+                        <p class="description">HTML5</p>
+                    </div>
+                    <div class="content1">
+                        <img src="/Landing-Page/Images/css3-brands.svg" alt="Image 2" class="sub-image">
+                        <p class="description">CSS</p>
+                    </div>
+                    <div class="content1">
+                        <img src="/Landing-Page/Images/js-brands.svg" alt="Image 3" class="sub-image">
+                        <p class="description">JavaScript</p>
+                    </div>
+                    <div class="content1">
+                        <img src="/Landing-Page/Images/python-brands.svg" alt="Image 4" class="sub-image">
+                        <p class="description">Python</p>
+                    </div>
+                </div>
             </div>
             <div class="content2">
                 <p class="quotes">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
                 <p class="author"> -Thor God of Thunder</p>
             </div>
             <div class="content3">
+                <div class="content3-subcontainer">
                 <h3 class="call">Call to action! It's time!</h3>
-                <p>Sign up for our product by clicking that button right over there!</p>
-                <button class="sign-up">Sign up</button>
+                <p class="call">Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <button class="sign-up" id="signup-foot" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley', '_blank');">Sign up</button>
             </div>       
     </div>
-    <footer class="foot">Copyright © The Odin Project 2021</footer>
+    <footer class="foot">Copyright © The Odin Project 2025</footer>
     
 </body>
 </html>
